@@ -1,0 +1,1 @@
+BUILD_SUBMITTER -x -m app/search/ksarch/trunk/store/neproxy -u https://svn.baidu.com/app/search/ksarch/trunk/store/neproxy -c "export PATH=/opt/compiler/gcc-4.8.2/bin:$PATH && cd app/search/ksarch/store/neproxy && autoreconf -fvi && ./configure --enable-debug=log && make && rm -rf output && mkdir -p output/src && cp src/nutcracker output/src || true"
